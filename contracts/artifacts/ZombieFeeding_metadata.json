@@ -13,11 +13,11 @@
 						"type": "uint256"
 					},
 					{
-						"name": "_targetDna",
+						"name": "_kittyId",
 						"type": "uint256"
 					}
 				],
-				"name": "feedAndMultiply",
+				"name": "feedOnKitty",
 				"outputs": [],
 				"payable": false,
 				"stateMutability": "nonpayable",
@@ -63,6 +63,28 @@
 				],
 				"payable": false,
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_zombieId",
+						"type": "uint256"
+					},
+					{
+						"name": "_targetDna",
+						"type": "uint256"
+					},
+					{
+						"name": "_species",
+						"type": "string"
+					}
+				],
+				"name": "feedAndMultiply",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -128,9 +150,9 @@
 			]
 		},
 		"contracts/zombiefeeding.sol": {
-			"keccak256": "0xe90c9cd8d3f829da7c6c2c26ec4c4ea1a5ce88b259c60bda5b2e73ee26966225",
+			"keccak256": "0x7e98512ba4e91ae1e853ca0a599cfc9c512800933776a983149bc7ea4100fa01",
 			"urls": [
-				"bzzr://5e517991a0fe6d29c540d631cf98d003799f62b1ff3fe7b0e311aed804341c7b"
+				"bzzr://86cd0751ed1881a30ceb25e9877292548933235eb8bccf960e2cc09085631da3"
 			]
 		}
 	},
