@@ -7,8 +7,7 @@ import "./safemath.sol";
 /// @title ゾンビ所有権の移転を管理するコントラクト
 /// @author nabe33
 /// @dev OpenZeppelinのERC721ドラフト実装に準拠
-//contract ZombieOwnership is ZombieAttack, ERC721 {
-contract ZombieOwnership is ZombieBattle, ERC721 {
+contract ZombieOwnership is ZombieAttack, ERC721 {
 
   using SafeMath for uint256;
 
