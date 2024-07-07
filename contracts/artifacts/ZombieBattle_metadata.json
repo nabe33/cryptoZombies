@@ -205,6 +205,24 @@
 				"constant": false,
 				"inputs": [
 					{
+						"name": "_zombieId",
+						"type": "uint256"
+					},
+					{
+						"name": "_targetId",
+						"type": "uint256"
+					}
+				],
+				"name": "attack",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
 						"name": "newOwner",
 						"type": "address"
 					}
@@ -271,7 +289,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/zombiehelper.sol": "ZombieHelper"
+			"contracts/zombieattack.sol": "ZombieBattle"
 		},
 		"libraries": {},
 		"optimizer": {
@@ -285,6 +303,12 @@
 			"keccak256": "0x3b6f792ee08fdbf946541cf3c3fceb0958c21bc29cacf26241c2c43f8f086d8f",
 			"urls": [
 				"bzzr://c23dee94ab5991b361cc46199cebbc6bbc52dd2276da94b4763521c70f1037e5"
+			]
+		},
+		"contracts/zombieattack.sol": {
+			"keccak256": "0x00f0d0da2f5e7f42d4a84b485a65445313fd9beb7d003e99881d214bdbe2944e",
+			"urls": [
+				"bzzr://909343a96ba191d23d9084f7f11ee904795ede84bf8fff69ccda122c2cbd9628"
 			]
 		},
 		"contracts/zombiefactory.sol": {

@@ -30,6 +30,14 @@
 					{
 						"name": "readyTime",
 						"type": "uint32"
+					},
+					{
+						"name": "winCount",
+						"type": "uint16"
+					},
+					{
+						"name": "lossCount",
+						"type": "uint16"
 					}
 				],
 				"payable": false,
@@ -170,9 +178,9 @@
 			]
 		},
 		"contracts/zombiefactory.sol": {
-			"keccak256": "0x66ecf27c94c4746e74f0d427f2a69e3bfac57b3207524779c0cb244b0c576cf4",
+			"keccak256": "0xbcdbb12243be4c67aaae7c028bda9521340f995f829e205217079bf51f0fcad3",
 			"urls": [
-				"bzzr://979ddd561937b856ac28e19da2c44cf7897f685e5508f91e6ba5d978e4ba04df"
+				"bzzr://4457f8dc61ec57f67f550745080ed93f5e0698920abe7cfb1d3248e8193c4f45"
 			]
 		}
 	},
